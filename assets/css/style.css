@@ -304,22 +304,38 @@ h1, h2, h3, p { margin: 0; }
 .about-bio p + p { margin-top: 14px; }
 
 .about-skills-label {
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 700;
   color: var(--text);
-  margin-bottom: 14px;
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--border);
 }
 
-.skill-list { display: flex; flex-wrap: wrap; gap: 10px; }
+/* 改为垂直列表 */
+.skill-list { 
+  display: flex; 
+  flex-direction: column; 
+  gap: 12px; 
+}
 
+/* 去掉胶囊，改为带蓝点的清晰列表 */
 .skill-item {
-  padding: 8px 16px;
-  border-radius: 999px;
-  background: var(--bg);
-  border: 1px solid var(--border);
-  font-size: 13.5px;
-  font-weight: 500;
+  position: relative;
+  padding-left: 16px;
+  font-size: 14.5px;
   color: var(--text-2);
+  line-height: 1.6;
+}
+
+.skill-item::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1.2;
 }
 
 /* ---------- 联系 ---------- */
@@ -380,10 +396,21 @@ h1, h2, h3, p { margin: 0; }
 }
 .back-link:hover { color: var(--accent); }
 
-.project-header { padding: 20px 24px 8px; }
+.project-header { 
+  padding: 20px 24px 8px; 
+  max-width: 880px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-.project-title { font-size: 34px; font-weight: 800; letter-spacing: 0.01em; }
-
+.project-title { 
+  font-size: 34px; 
+  font-weight: 800; 
+  letter-spacing: 0.01em;
+  border-left: 6px solid var(--accent);
+  padding-left: 16px;
+  margin-left: -22px; /* 抵消左侧内边距，保持对齐 */
+}
 .project-tagline { margin-top: 12px; font-size: 17px; color: var(--text-2); max-width: 680px; }
 
 .meta-chips {
@@ -407,7 +434,11 @@ h1, h2, h3, p { margin: 0; }
 
 .meta-chip b { color: var(--text); font-weight: 700; }
 
-.project-body { max-width: 880px; }
+.project-body { 
+  max-width: 880px; 
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .summary p { font-size: 15.5px; color: var(--text-2); line-height: 1.9; }
 .summary p + p { margin-top: 14px; }
@@ -431,6 +462,8 @@ h1, h2, h3, p { margin: 0; }
   display: grid;
   gap: 28px;
   max-width: 880px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .gallery figure { margin: 0; }
