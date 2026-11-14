@@ -294,7 +294,8 @@ h1, h2, h3, p { margin: 0; }
 /* ---------- 关于我 ---------- */
 .about-grid {
   display: grid;
-  grid-template-columns: 1.25fr 1fr;
+  /* 使用 minmax(0, ...) 防止长单词撑破布局导致溢出 */
+  grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr);
   gap: 48px;
   margin-top: 28px;
   align-items: start;
@@ -303,29 +304,40 @@ h1, h2, h3, p { margin: 0; }
 .about-bio p { font-size: 15.5px; color: var(--text-2); line-height: 1.9; }
 .about-bio p + p { margin-top: 14px; }
 
+/* 技能标题：字号放大、加粗、带延伸细线 */
 .about-skills-label {
-  font-size: 15px;
-  font-weight: 700;
+  display: flex;
+  align-items: center;
+  font-size: 19px;
+  font-weight: 800;
   color: var(--text);
-  margin-bottom: 16px;
-  padding-bottom: 8px;
-  border-bottom: 2px solid var(--border);
+  margin-bottom: 20px;
 }
 
-/* 改为垂直列表 */
+.about-skills-label::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--border);
+  margin-left: 16px;
+}
+
+/* 列表改为纵向排列，拉开间距 */
 .skill-list { 
   display: flex; 
   flex-direction: column; 
-  gap: 12px; 
+  gap: 14px; 
 }
 
-/* 去掉胶囊，改为带蓝点的清晰列表 */
+/* 去除胶囊背景，改用蓝色圆点引导，强制长英文换行 */
 .skill-item {
   position: relative;
   padding-left: 16px;
-  font-size: 14.5px;
+  font-size: 15px;
   color: var(--text-2);
-  line-height: 1.6;
+  line-height: 1.7;
+  word-break: break-word;
+  overflow-wrap: anywhere;
 }
 
 .skill-item::before {
@@ -337,7 +349,6 @@ h1, h2, h3, p { margin: 0; }
   font-size: 1.2rem;
   line-height: 1.2;
 }
-
 /* ---------- 联系 ---------- */
 .contact { text-align: center; }
 
