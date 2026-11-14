@@ -3,7 +3,7 @@
     "name": "梁沛森",
     "role": "电子硬件研发 / 嵌入式软件工程师 / PCB设计工程师",
     "tagline": "物联网工程本科在读，具备“软硬协同”开发思维。既精通原理图与多层PCB Layout，也熟悉STM32固件开发与外设驱动，能独立完成从底层硬件到上层逻辑的完整闭环。",
-    "avatar": "assets/img/avatar.png",
+    "avatar": "assets/img/avatar.jpg",
     "email": "",
     "wechat": "",
     "phone": "",
@@ -30,9 +30,9 @@
       "tags": ["国家级二等奖", "STM32", "PCB设计"],
       "cover": "projects/engineering-competition/cover.jpg",
       "images": [
-        { "src": "projects/engineering-competition/cover.jpg", "caption": "" },
-        { "src": "projects/engineering-competition/01.png", "caption": "" },
-        { "src": "projects/engineering-competition/02.png", "caption": "" }
+        { "src": "projects/engineering-competition/cover.jpg", "caption": "最终形态" },
+        { "src": "projects/engineering-competition/01.png", "caption": "主控pcb" },
+        { "src": "projects/engineering-competition/02.png", "caption": "部分建模文件展示" }
       ],
       "summary": [
         "项目背景：参加由教育部高教司主办的 A 类赛事，智能物流搬运赛项。",
@@ -50,19 +50,19 @@
       "tags": ["省级二等奖2项", "嘉立创EDA", "模数混合"],
       "cover": "projects/smart-car/cover.jpg",
       "images": [
-        { "src": "projects/smart-car/cover.jpg", "caption": "" },
-        { "src": "projects/smart-car/01.jpg", "caption": "" },
-        { "src": "projects/smart-car/02.jpg", "caption": "" },
-        { "src": "projects/smart-car/03.jpg", "caption": "" },
-        { "src": "projects/smart-car/04.jpg", "caption": "" },
-        { "src": "projects/smart-car/05.jpg", "caption": "" },
-        { "src": "projects/smart-car/06.png", "caption": "" },
-        { "src": "projects/smart-car/07.png", "caption": "" },
-        { "src": "projects/smart-car/08.png", "caption": "" },
-        { "src": "projects/smart-car/09.png", "caption": "" },
-        { "src": "projects/smart-car/10.png", "caption": "" },
-        { "src": "projects/smart-car/11.png", "caption": "" },
-        { "src": "projects/smart-car/12.png", "caption": "" }
+        { "src": "projects/smart-car/cover.jpg", "caption": "21届参赛作品车模" },
+        { "src": "projects/smart-car/01.jpg", "caption": "21届参赛作品车模" },
+        { "src": "projects/smart-car/02.jpg", "caption": "21届参赛作品车模" },
+        { "src": "projects/smart-car/03.jpg", "caption": "20届参赛作品车模" },
+        { "src": "projects/smart-car/04.jpg", "caption": "20届车模迭代中" },
+        { "src": "projects/smart-car/05.jpg", "caption": "20届车模迭代中" },
+        { "src": "projects/smart-car/06.png", "caption": "20届主控pcb正面" },
+        { "src": "projects/smart-car/07.png", "caption": "20届主控pcb反面" },
+        { "src": "projects/smart-car/08.png", "caption": "20届主控pcb迭代中" },
+        { "src": "projects/smart-car/09.png", "caption": "20届主控pcb迭代中" },
+        { "src": "projects/smart-car/10.png", "caption": "无刷驱动（有感）" },
+        { "src": "projects/smart-car/11.png", "caption": "无刷驱动（无感）" },
+        { "src": "projects/smart-car/12.png", "caption": "无刷驱动（无感）" }
       ],
       "summary": [
         "项目背景：连续参加第20届、第21届全国大学生智能汽车竞赛，均担任硬件负责人。",
@@ -80,8 +80,8 @@
       "tags": ["AI辅助开发", "移动端App", "微信小程序"],
       "cover": "projects/mobile-app-dev/cover.jpg",
       "images": [
-         { "src": "projects/mobile-app-dev/cover.jpg", "caption": "" },
-        { "src": "projects/mobile-app-dev/01.jpg", "caption": "" }
+         { "src": "projects/mobile-app-dev/cover.jpg", "caption": "手机app" },
+        { "src": "projects/mobile-app-dev/01.jpg", "caption": "小程序" }
       ],
       "summary": [
         "项目背景：为了验证个人想法或辅助硬件项目，借助前沿 AI 工具探索移动端软件开发的完整流程。",
@@ -99,9 +99,9 @@
       "tags": ["硬件复刻", "机械结构", "电路调试"],
       "cover": "projects/reuleaux-triangle/cover.jpg",
       "images": [
-         { "src": "projects/reuleaux-triangle/cover.jpg", "caption": "" },
-        { "src": "projects/reuleaux-triangle/01.png", "caption": "" },
-        { "src": "projects/reuleaux-triangle/02.png", "caption": "" }
+         { "src": "projects/reuleaux-triangle/cover.jpg", "caption": "实物图" },
+        { "src": "projects/reuleaux-triangle/01.png", "caption": "电路图" },
+        { "src": "projects/reuleaux-triangle/02.png", "caption": "学习的4层pcb" }
       ],
       "summary": [
         "项目背景：复刻经典的莱洛三角形自平衡机构，侧重于硬件搭建与电路逻辑验证。",
@@ -119,10 +119,10 @@
       "tags": ["180°", "舵机控制", "结构装配"],
       "cover": "projects/servo-dog/cover.jpg",
       "images": [
-         { "src": "projects/servo-dog/cover.jpg", "caption": "" },
-        { "src": "projects/servo-dog/01.jpg", "caption": "" },
-        { "src": "projects/servo-dog/02.png", "caption": "" },
-        { "src": "projects/servo-dog/03.png", "caption": "" }
+         { "src": "projects/servo-dog/cover.jpg", "caption": "实物图" },
+        { "src": "projects/servo-dog/01.jpg", "caption": "装配中" },
+        { "src": "projects/servo-dog/02.png", "caption": "主板pcb" },
+        { "src": "projects/servo-dog/03.png", "caption": "学习的4层pcb" }
       ],
       "summary": [
         "项目背景：复刻简易四足机器狗，单纯的兴趣使然。",
@@ -140,8 +140,8 @@
       "tags": ["物联网", "Web服务", "软硬件协同"],
       "cover": "projects/smart-aquarium/cover.jpg",
       "images": [
-        { "src": "projects/smart-aquarium/cover.jpg", "caption": "" },
-        { "src": "projects/smart-aquarium/01.png", "caption": "" }
+        { "src": "projects/smart-aquarium/cover.jpg", "caption": "实物图" },
+        { "src": "projects/smart-aquarium/01.png", "caption": "主板pcb" }
       ],
       "summary": [
         "项目背景：设计并实现鱼缸自动化与本地物联网监控系统。",
