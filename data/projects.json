@@ -1,282 +1,204 @@
 {
   "profile": {
-    "name": "戴章勇",
-    "role": "B 端产品经理 · ERP 产品经理",
-    "tagline": "6 年 IT 从业，集开发、实施、产品三重经验于一身。Java 出身，做过 ERP 现场交付，最近深耕 B 端产品设计，有从需求到上线的完整闭环案例。评估需求不会只画饼，能直接判断技术可行性。",
+    "name": "梁沛森",
+    "role": "电子硬件研发 / 嵌入式软件工程师 / PCB设计工程师",
+    "tagline": "物联网工程本科在读，具备“软硬协同”开发思维。既精通原理图与多层PCB Layout，也熟悉STM32固件开发与外设驱动，能独立完成从底层硬件到上层逻辑的完整闭环。",
     "avatar": "assets/img/avatar.png",
-    "email": "809968881@qq.com",
-    "wechat": "d809968881",
-    "phone": "13329982946",
-    "resumePdf": "assets/resume.pdf",
+    "email": "",
+    "wechat": "",
+    "phone": "",
+    "resumePdf": "",
     "bio": [
-      "你好，我是戴章勇，一名 B 端 / ERP 产品经理，拥有 6 年工作经验，具备产品经理与后端开发双重视角，能精准理解业务痛点并输出可落地的产品方案。",
-      "本作品集收录了我的产品原型图与产品需求文档（PRD），欢迎点击查看；如需更多项目细节或完整简历，欢迎通过下方联系方式交流。"
+      "我是梁沛森。熟练使用 Altium Designer、嘉立创 EDA 等常用工具，具备数字电路与硬件系统设计实践。同时熟练掌握 C 语言与 Keil 调试，具备 STM32 固件开发、传感器驱动及通信接口开发经验。",
+      "具备 SolidWorks 结构建模、3D 打印与硬件装配经验，可独立开展板卡、摄像头及执行机构的结构集成。善于利用 AI 工具辅助代码生成与方案验证，能胜任从硬件设计到整机软硬联调的完整流程。"
     ],
     "skills": [
-      "B 端 / ERP 产品",
-      "需求调研与痛点拆解",
-      "原型设计（Axure/墨刀）",
-      "PRD 撰写与评审",
-      "业务流程梳理",
-      "数据分析与复盘",
-      "项目管理",
-      "AI 工具应用"
+      "硬件设计：原理图与多层PCB Layout (AD/嘉立创)",
+      "嵌入式开发：C语言/STM32固件/Keil调试",
+      "外设与通信：传感器驱动/串口通信/执行器控制",
+      "结构设计：SolidWorks/3D打印/整机装配/仿真软件",
+      "AI辅助研发与工具：Trae（workBuddy/Qcoder/Codex/Claude code）/Git/Docker/虚拟机"
     ]
   },
   "projects": [
     {
-      "id": "store-management-system",
-      "title": "连锁奶茶门店运营管理系统",
-      "tagline": "面向 60+ 海外连锁门店的一体化运营管理平台，覆盖合作、稽核、订货、监控与客流等核心业务，视频监控模块已上线运行。",
-      "role": "产品经理",
-      "period": "2026.01 - 至今",
-      "tags": [
-        "B 端",
-        "门店运营",
-        "连锁零售",
-        "ERP",
-        "已上线"
-      ],
-      "cover": "projects/store-management-system/franchise-overview.webp",
+      "id": "engineering-competition",
+      "title": "中国大学生工创赛｜智能物流搬运",
+      "tagline": "国家级二等奖。基于STM32主控完成搬运车主控板与PCB Layout，集成视觉识别与电机舵机控制。",
+      "role": "硬件负责人",
+      "period": "2024.10 - 2025.08",
+      "tags": ["国家级二等奖", "STM32", "PCB设计"],
+      "cover": "projects/engineering-competition/cover.jpg",
       "images": [
         {
-          "src": "projects/store-management-system/store-monitor.webp",
-          "caption": "门店监控 · 实时视频监控（已上线模块）"
+          "src": "projects/engineering-competition/01.jpg",
+          "caption": "搬运车实物与结构设计"
         },
         {
-          "src": "projects/store-management-system/store-monitor-2.webp",
-          "caption": "门店监控 · 多机位切换与回放（已上线模块）"
-        },
-        {
-          "src": "projects/store-management-system/order-recommend.webp",
-          "caption": "订货推荐 · 智能订货建议"
-        },
-        {
-          "src": "projects/store-management-system/order-review.webp",
-          "caption": "订单评价 · 门店订单与评价"
-        },
-        {
-          "src": "projects/store-management-system/store-traffic.webp",
-          "caption": "门店客流统计 · 客流趋势分析"
-        },
-        {
-          "src": "projects/store-management-system/franchise-overview.webp",
-          "caption": "合作管理 · 合作总览"
-        },
-        {
-          "src": "projects/store-management-system/franchise-apply-form.webp",
-          "caption": "合作申请 · 填写申请信息"
-        },
-        {
-          "src": "projects/store-management-system/franchise-apply-status.webp",
-          "caption": "合作申请 · 申请状态跟踪"
-        },
-        {
-          "src": "projects/store-management-system/address-review-status.webp",
-          "caption": "地址审核 · 审核状态列表"
-        },
-        {
-          "src": "projects/store-management-system/address-review-detail.webp",
-          "caption": "地址审核 · 审核详情"
-        },
-        {
-          "src": "projects/store-management-system/review-detail.webp",
-          "caption": "审核详情 · 查看审核明细"
-        },
-        {
-          "src": "projects/store-management-system/warning-letter.webp",
-          "caption": "警告信 · 违规警告管理"
-        },
-        {
-          "src": "projects/store-management-system/audit-issue-management.webp",
-          "caption": "稽核管理 · 问题列表"
-        },
-        {
-          "src": "projects/store-management-system/audit-issue-management-2.webp",
-          "caption": "稽核管理 · 问题处理"
-        },
-        {
-          "src": "projects/store-management-system/audit-draft-delete.webp",
-          "caption": "稽核 · 草稿删除"
-        },
-        {
-          "src": "projects/store-management-system/audit-create-view.webp",
-          "caption": "稽核 · 新建与查看"
-        },
-        {
-          "src": "projects/store-management-system/store-audit-issues.webp",
-          "caption": "门店稽核 · 问题汇总"
-        },
-        {
-          "src": "projects/store-management-system/app-audit.webp",
-          "caption": "APP 稽核 · 移动端稽核"
-        },
-        {
-          "src": "projects/store-management-system/app-audit-2.webp",
-          "caption": "APP 稽核 · 问题处理"
+          "src": "projects/engineering-competition/02.jpg",
+          "caption": "主控板与硬件调试"
         }
       ],
-      "prdPdf": "projects/store-management-system/PRD.pdf",
       "summary": [
-"背景：为泰国区域 60+ 连锁奶茶门店提供日常业务系统支持，并深度参与门店运营管理系统的功能迭代需求落地与全流程跟进。",
-        "方案：系统覆盖门店运营（订货推荐、订单评价、视频监控、客流统计）、合作管理（申请、地址审核、警告信）与稽核管理（问题管理、移动端 APP 稽核）等核心模块，支撑海外门店日常运营与统一管控。",
-        "我的工作：负责需求梳理、业务逻辑核对、原型设计与功能落地跟进，输出需求文档并协调业务与研发两端，保障系统稳定运行并持续迭代。其中视频监控模块（多机位切换、历史回放、画面抓拍）的需求方案被团队采纳，已上线稳定运行。",
-        "结果：系统保障 60+ 海外门店日常运营与统一管控；视频监控模块已上线，覆盖实时监控、多机位切换、历史回放等核心能力，提升了门店安防监管效率。"
+        "项目背景：参加由教育部高教司主办的 A 类赛事，智能物流搬运赛项。",
+        "我的工作：独立负责硬件系统设计与主控板 PCB 绘制。基于STM32F4完成PCB Layout；利用集成摄像头模块实现视觉识别；驱动步进电机轮组运动及舵机完成抓取分拣动作。",
+        "项目成果：完成硬件焊接与整机联调，实现自动搬运、路径规划与智能分拣功能，物品识别准确率不低于 95%，最终斩获国家级二等奖。"
       ],
-      "links": {
-        "prototype": ""
-      }
+      "links": {}
     },
     {
-      "id": "scanner-login",
-      "title": "收银台扫码登录方案",
-      "tagline": "解决合作伙伴 App 覆盖率低与门店出餐效率差两个痛点，通过收银台+App 双端扫码改造账号体系与登录流程。",
-      "role": "产品方案独立设计",
-      "period": "2026.05",
-      "tags": [
-        "B 端",
-        "扫码登录",
-        "账号体系迁移",
-        "完整方案"
-      ],
-      "cover": "projects/scanner-login/01-page1.png",
+      "id": "smart-car",
+      "title": "全国大学生智能汽车竞赛合集",
+      "tagline": "省级二等奖。涵盖第20届缩微光电与第21届疯狂电路赛项，独立完成主控板设计、信号调理与高频抗干扰优化。",
+      "role": "硬件负责人",
+      "period": "2024.12 - 2026.07",
+      "tags": ["省级二等奖2项", "团队协作", "多层pcb"],
+      "cover": "projects/smart-car/cover.jpg",
       "images": [
         {
-          "src": "projects/scanner-login/01-page1.png",
-          "caption": "需求背景 · 提升 App 覆盖率与门店出餐效率"
+          "src": "projects/smart-car/01.jpg",
+          "caption": "第21届疯狂电路赛项 - 车模"
         },
         {
-          "src": "projects/scanner-login/02-page2.png",
-          "caption": "扫码登录主流程 · App 端扫码确认 + 收银台端二维码"
+          "src": "projects/smart-car/02.jpg",
+          "caption": "第20届缩微光电赛项 - 车模"
         },
         {
-          "src": "projects/scanner-login/03-page3.png",
-          "caption": "异常处理 · 二维码过期遮罩、影响范围分析"
-        },
-        {
-          "src": "projects/scanner-login/04-page4.png",
-          "caption": "登录确认页 · 状态机设计"
+          "src": "projects/smart-car/03.jpg",
+          "caption": "PCB Layout与信号布线"
         }
       ],
-      "prdPdf": "projects/scanner-login/PRD.pdf",
       "summary": [
-"背景：当前合作伙伴工作流程线上化程度低，合作伙伴在店长店员的覆盖率低，门店出餐效率差。需要在收银台增加扫码登录与扫码出餐两项功能改善这两类情况。",
-        "方案：核心是「无感迁移」——收银台账号体系迁移到合作伙伴账号体系，原收银员角色账号按门店关系复制进入合作伙伴账号体系成为门店员工。收银台默认扫码登录，底部保留账号密码登录入口作为兜底。",
-        "关键设计：120 秒二维码有效期，超时手动刷新；二维码过期增加遮罩无法识别 + 重新生成按钮；合作伙伴 App 金刚区增加扫一扫入口，仅对合作伙伴、店长、店员可见。",
-        "异常处理：未扫码 / 已扫码 / 已过期 / 失败 4 类异常场景全覆盖；账号未升级 / 已升级新版本两套兼容方案，新老账号并行过渡。",
-        "我的工作：独立设计完整产品方案——7 状态流转、6 类异常处理、5 项安全要求（一次性 Token / 2 分钟过期 / 防暴力破解 / 敏感信息隔离 / 权限校验）、8 项埋点指标、11 条验收标准，可直接进入评审与开发。"
+        "项目背景：连续参加第20届、第21届全国大学生智能汽车竞赛，均担任硬件负责人。",
+        "我的工作：①独立完成数字电路、主控板及传感器扩展板的原理图设计与双层 PCB Layout；②使用 SolidWorks 完成车模结构建模与 3D 打印装配；③优化光电传感器信号布线与接地策略。",
+        "项目成果：解决高频信号干扰问题，实现赛道行驶、断路区识别、环岛通行等任务，两届均获省级二等奖。"
       ],
-      "links": {
-        "prototype": ""
-      }
+      "links": {}
     },
     {
-      "id": "learning-exam",
-      "title": "员工学习考试体系",
-      "tagline": "解决泰国籍员工招聘培养难、离职率高问题，通过在线学习-阶段考试-综合考试-证书发放全链路，覆盖 60+ 门店人员培训。",
-      "role": "产品经理 + 验收负责人",
-      "period": "2026.06",
-      "tags": [
-        "B 端",
-        "学习地图",
-        "考试认证",
-        "多语言",
-        "海外团队"
-      ],
-      "cover": "projects/learning-exam/01-page1.png",
+      "id": "mobile-app-dev",
+      "title": "AI辅助开发｜手机App与小程序",
+      "tagline": "借助 AI 工具快速完成从需求分析到代码生成的全流程，独立开发手机 App 及微信小程序并部署上线。",
+      "role": "独立开发",
+      "period": "2025.09 - 2026.01",
+      "tags": ["AI辅助开发", "移动端App", "微信小程序"],
+      "cover": "projects/mobile-app-dev/cover.jpg",
       "images": [
         {
-          "src": "projects/learning-exam/01-page1.png",
-          "caption": "学习地图 · 岗位逐级解锁机制"
+          "src": "projects/mobile-app-dev/01.jpg",
+          "caption": "手机 App 界面与功能展示"
         },
         {
-          "src": "projects/learning-exam/02-page3.png",
-          "caption": "阶段学习 · 视频课程 + 互动"
-        },
-        {
-          "src": "projects/learning-exam/03-page5.png",
-          "caption": "阶段考试 · 答题 + 进度追踪"
-        },
-        {
-          "src": "projects/learning-exam/04-page7.png",
-          "caption": "综合考试 · 整体评估"
-        },
-        {
-          "src": "projects/learning-exam/05-page9.png",
-          "caption": "证书奖励 · 完成解锁证书"
-        },
-        {
-          "src": "projects/learning-exam/06-page11.png",
-          "caption": "学习任务 · 待办与推送"
-        }
-      ],
-      "prdPdf": "projects/learning-exam/PRD.pdf",
-      "extraDocs": [
-        {
-          "label": "验收流程文档（学习地图验收5层结构）",
-          "path": "projects/learning-exam/acceptance-process.pdf"
-        },
-        {
-          "label": "三语翻译表（中/英/泰 共145条）",
-          "path": "projects/learning-exam/i18n-translation.pdf"
+          "src": "projects/mobile-app-dev/02.jpg",
+          "caption": "微信小程序界面与功能展示"
         }
       ],
       "summary": [
-"背景：泰国区域 60+ 连锁门店，泰国籍员工招聘难、培养难、离职率高，需要通过在线学习、考试、发证书的方式加强员工培训与人才建设。",
-        "方案：从 0 设计完整学习路径——课程分类→课程资源→学习地图（岗位+阶段+课程）→阶段考试→综合考试→证书奖励→学习任务推送。岗位按顺序逐级解锁，完成前一岗位全部阶段后自动解锁下一岗位。",
-        "我的工作：①独立设计完整产品方案，输出 15 页 PRD 覆盖 5 大模块；②负责该模块上线验收——这是我的第一个验收需求，独立编写验收流程文档（5 层验收：后台配置→主流程→副流程→多语言→线上环境）；③管理 145 条中英泰三语文案翻译。",
-        "踩坑与改进：评审时很多提示信息（输入校验提示、空状态文案）根本看不到，只有测试时才能发现，导致翻译漏翻、来来回回改了好几轮。后来我改进：PRD 里加一个「文案清单」模块，把所有用户可见的提示文案逐条列出，评审时就和翻译团队逐条过一遍——后续模块翻译遗漏问题基本消除。",
-        "沉淀方法论：验收分层法——后台配置先跑通→主流程闭环→副流程→多语言遍历→显示细节→线上环境。这套方法后来在我做的所有功能验收中复用。"
+        "项目背景：为了验证个人想法或辅助硬件项目，借助前沿 AI 工具探索移动端软件开发的完整流程。",
+        "我的工作：利用 AI 编程工具辅助完成前后端逻辑设计、代码生成与调试；完成 UI 界面布局、功能逻辑串联，以及手机端与微信小程序的适配发布。",
+        "项目成果：成功落地并上线了 1 款手机 App （仅apk包版本）和 1 款微信小程序，验证了自身快速学习新技术并实现产品落地的能力。"
       ],
-      "links": {
-        "prototype": ""
-      }
+      "links": {}
     },
     {
-      "id": "order-evaluation",
-      "title": "订单评价模块需求设计",
-      "tagline": "从 0 到 1 独立完成订单评价模块的完整需求设计：业务背景、流程梳理、评分体系、交互细节与字段定义。",
-      "role": "产品需求设计（独立输出）",
-      "period": "2026.02 - 2026.03",
-      "tags": [
-        "B 端",
-        "从0到1",
-        "订单评价",
-        "完整PRD"
-      ],
-      "cover": "projects/order-evaluation/cover.png",
+      "id": "reuleaux-triangle",
+      "title": "莱洛三角形硬件复刻项目",
+      "tagline": "经典控制算法与硬件结构的复刻实践，照抄开源方案完成电路搭建与机械结构。",
+      "role": "硬件研发",
+      "period": "2026.01 - 2026.03",
+      "tags": ["硬件复刻", "机械结构", "电路调试"],
+      "cover": "projects/reuleaux-triangle/cover.jpg",
       "images": [
         {
-          "src": "projects/order-evaluation/cover.png",
-          "caption": "需求背景 · 订单流转与评价体系"
-        },
-        {
-          "src": "projects/order-evaluation/01-flow.png",
-          "caption": "发布评价 · 评分规则与填写项"
-        },
-        {
-          "src": "projects/order-evaluation/02-order-submit.png",
-          "caption": "订单详情 · 我的评价展示"
-        },
-        {
-          "src": "projects/order-evaluation/03-order-detail.png",
-          "caption": "配送方式 · 选择与订单备注"
-        },
-        {
-          "src": "projects/order-evaluation/04-verify.png",
-          "caption": "订单列表 · 新增字段与附件预览"
+          "src": "projects/reuleaux-triangle/01.jpg",
+          "caption": "莱洛三角形结构实物"
         }
       ],
-      "prdPdf": "projects/order-evaluation/PRD.pdf",
       "summary": [
-"背景：合作伙伴与门店之间的订单流转流程需要规范化，包括下单、配送选择、评价反馈等环节。旧系统没有评价机制，合作伙伴无法反馈审核 / 配送质量，总部也无法量化评估配送人员 KPI。",
-        "我的工作：独立完成该模块的完整需求设计——梳理业务背景、订单流程规则、评价评分体系（审核评分 / 物流评分双维度）、配送方式选择逻辑、订单列表字段扩展与附件预览功能，输出可直接进入评审的完整 PRD。",
-        "关键设计：① 评价入口放在「已签收」订单上，避免用户乱评；② 文字评价 100 字必填 + 图文评价非必填（4 图 1 视频）；③ 配送方式选择 + 订单备注一次下单收全信息；④ 评价数据同步到订单详情页只读展示。",
-        "产出：一份覆盖「背景—流程—场景—字段」的完整 PRD，体现从业务分析到交互细节定义的 B 端产品能力，可在面试中现场展示与讲解。"
+        "项目背景：复刻经典的莱洛三角形自平衡机构，侧重于硬件搭建与电路逻辑验证。",
+        "我的工作：完成相关驱动电路的原理图设计与 PCB 绘制，进行元器件的焊接调试。",
+        "项目成果：成功复刻硬件系统，实现稳定运行。"
       ],
-      "links": {
-        "prototype": ""
-      }
+      "links": {}
+    },
+    {
+      "id": "servo-dog",
+      "title": "多舵机小狗复刻",
+      "tagline": "四足机器狗硬件复刻项目，完成PCB 布线及整机结构装配。",
+      "role": "（复刻）硬件研发",
+      "period": "2026.02 - 2026.04",
+      "tags": ["180°", "舵机控制", "结构装配"],
+      "cover": "projects/servo-dog/cover.jpg",
+      "images": [
+        {
+          "src": "projects/servo-dog/01.jpg",
+          "caption": "舵机小狗实物图"
+        }
+      ],
+      "summary": [
+        "项目背景：复刻简易四足机器狗，单纯的兴趣使然。",
+        "我的工作：设计主控板的接口电路，完成双层 PCB Layout；完成全机 3D 打印结构件的装配与接线布线。",
+        "项目成果：完成整机装配与动作测试，烧录已有的固件就可以实现基础的行走与姿态控制。"
+      ],
+      "links": {}
+    },
+    {
+      "id": "smart-aquarium",
+      "title": "智慧鱼缸自动化与物联网监控",
+      "tagline": "软硬件全栈开发。基于STM32与ESP-12F实现传感器采集、设备控制与局域网Web监控。",
+      "role": "项目负责人｜独立开发",
+      "period": "2026.01 - 2026.05",
+      "tags": ["物联网", "Web服务", "软硬件协同"],
+      "cover": "projects/smart-aquarium/cover.jpg",
+      "images": [
+        {
+          "src": "projects/smart-aquarium/01.jpg",
+          "caption": "主控板与整体实物"
+        }
+      ],
+      "summary": [
+        "项目背景：设计并实现鱼缸自动化与本地物联网监控系统。",
+        "我的工作：完成 STM32F103C8T6 主控板原理图设计与 PCB 绘制；基于 Trae 开发固件；配置 ESP-12F 模块与内置 Web 服务器。",
+        "项目成果：实现水温水质采集与增氧喂食控制，将状态实时呈现在浏览器，支持局域网内远程控制，形成完整功能闭环。"
+      ],
+      "links": {}
+    },
+    {
+      "id": "awards",
+      "title": "竞赛荣誉与获奖证书",
+      "tagline": "大学期间在电子设计与工程实践领域的部分获奖记录，包含国家级、国际赛及多项省级荣誉。",
+      "role": "个人荣誉",
+      "period": "2024 - 2026",
+      "tags": ["国家级二等奖", "国际赛二等奖", "省级奖项"],
+      "cover": "projects/awards/cover.jpg",
+      "images": [
+        {
+          "src": "projects/awards/01.jpg",
+          "caption": "2025中国大学生工创赛 国家级二等奖"
+        },
+        {
+          "src": "projects/awards/02.jpg",
+          "caption": "2026一带一路暨金砖国家技能大赛 国际赛二等奖"
+        },
+        {
+          "src": "projects/awards/03.jpg",
+          "caption": "第20届、21届全国大学生智能汽车竞赛 省级二等奖"
+        },
+        {
+          "src": "projects/awards/04.jpg",
+          "caption": "第十五届挑战杯河北省大学生创业计划竞赛 省级二等奖"
+        },
+        {
+          "src": "projects/awards/05.jpg",
+          "caption": "第十六届蓝桥杯 EDA设计与开发 省级三等奖"
+        }
+      ],
+      "summary": [
+        "在这里集中展示我在各类学科竞赛中获得的荣誉证书。",
+        "荣誉列表：工创赛国家级二等奖、金砖国家技能大赛国际赛二等奖、全国大学生智能汽车竞赛省级二等奖（2项）、挑战杯省级二等奖、蓝桥杯省级三等奖。",
+        "这些经历锻炼了我的抗压能力、工程实践落地能力，以及跨部门沟通协调能力。"
+      ],
+      "links": {}
     }
   ]
 }
