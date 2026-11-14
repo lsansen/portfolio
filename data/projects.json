@@ -47,7 +47,7 @@
       "tagline": "省级二等奖。涵盖第20届缩微光电与第21届疯狂电路赛项，独立完成主控板设计、信号调理与高频抗干扰优化。",
       "role": "硬件负责人",
       "period": "2024.12 - 2026.07",
-      "tags": ["省级二等奖2项", "嘉立创EDA", "模数混合"],
+      "tags": ["省级二等奖2项", "嘉立创EDA", "车模装配"],
       "cover": "projects/smart-car/cover.jpg",
       "images": [
         { "src": "projects/smart-car/cover.jpg", "caption": "21届参赛作品车模" },
