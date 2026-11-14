@@ -30,6 +30,7 @@
       "tags": ["国家级二等奖", "STM32", "PCB设计"],
       "cover": "projects/engineering-competition/cover.jpg",
       "images": [
+        { "src": "projects/engineering-competition/cover.jpg", "caption": "" },
         { "src": "projects/engineering-competition/01.png", "caption": "" },
         { "src": "projects/engineering-competition/02.png", "caption": "" }
       ],
@@ -47,8 +48,10 @@
       "role": "硬件负责人",
       "period": "2024.12 - 2026.07",
       "tags": ["省级二等奖2项", "嘉立创EDA", "模数混合"],
-      "cover": "projects/smart-car/01.jpg",
+      "cover": "projects/smart-car/cover.jgp",
       "images": [
+        { "src": "projects/smart-car/cover.jgp", "caption": "" },
+        { "src": "projects/smart-car/01.jpg", "caption": "" },
         { "src": "projects/smart-car/02.jpg", "caption": "" },
         { "src": "projects/smart-car/03.jpg", "caption": "" },
         { "src": "projects/smart-car/04.jpg", "caption": "" },
@@ -77,6 +80,7 @@
       "tags": ["AI辅助开发", "移动端App", "微信小程序"],
       "cover": "projects/mobile-app-dev/cover.jpg",
       "images": [
+         { "src": "projects/mobile-app-dev/cover.jpg", "caption": "" },
         { "src": "projects/mobile-app-dev/01.jpg", "caption": "" }
       ],
       "summary": [
@@ -95,6 +99,7 @@
       "tags": ["硬件复刻", "机械结构", "电路调试"],
       "cover": "projects/reuleaux-triangle/cover.jpg",
       "images": [
+         { "src": "projects/reuleaux-triangle/cover.jpg", "caption": "" },
         { "src": "projects/reuleaux-triangle/01.png", "caption": "" },
         { "src": "projects/reuleaux-triangle/02.png", "caption": "" }
       ],
@@ -114,6 +119,7 @@
       "tags": ["180°", "舵机控制", "结构装配"],
       "cover": "projects/servo-dog/cover.jpg",
       "images": [
+         { "src": "projects/servo-dog/cover.jpg", "caption": "" },
         { "src": "projects/servo-dog/01.jpg", "caption": "" },
         { "src": "projects/servo-dog/02.png", "caption": "" },
         { "src": "projects/servo-dog/03.png", "caption": "" }
@@ -134,6 +140,7 @@
       "tags": ["物联网", "Web服务", "软硬件协同"],
       "cover": "projects/smart-aquarium/cover.jpg",
       "images": [
+        { "src": "projects/smart-aquarium/cover.jpg", "caption": "" },
         { "src": "projects/smart-aquarium/01.png", "caption": "" }
       ],
       "summary": [
@@ -152,6 +159,7 @@
       "tags": ["国家级二等奖", "国际赛二等奖", "省级奖项"],
       "cover": "projects/awards/cover.jpg",
       "images": [
+         { "src": "projects/awards/cover.jpg", "caption": "" },
         { "src": "projects/awards/01.jpg", "caption": "" },
         { "src": "projects/awards/02.jpg", "caption": "" },
         { "src": "projects/awards/03.jpg", "caption": "" },
