@@ -48,9 +48,9 @@
       "role": "硬件负责人",
       "period": "2024.12 - 2026.07",
       "tags": ["省级二等奖2项", "嘉立创EDA", "模数混合"],
-      "cover": "projects/smart-car/cover.jgp",
+      "cover": "projects/smart-car/cover.jpg",
       "images": [
-        { "src": "projects/smart-car/cover.jgp", "caption": "" },
+        { "src": "projects/smart-car/cover.jpg", "caption": "" },
         { "src": "projects/smart-car/01.jpg", "caption": "" },
         { "src": "projects/smart-car/02.jpg", "caption": "" },
         { "src": "projects/smart-car/03.jpg", "caption": "" },
