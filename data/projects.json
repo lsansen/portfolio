@@ -20,24 +20,18 @@
       "AI辅助研发与工具：Trae（workBuddy/Qcoder/Codex/Claude code）/Git/Docker/虚拟机"
     ]
   },
-  "projects": [
+ "projects": [
     {
       "id": "engineering-competition",
       "title": "中国大学生工创赛｜智能物流搬运",
-      "tagline": "国家级二等奖。基于STM32主控完成搬运车主控板与PCB Layout，集成视觉识别与电机舵机控制。",
+      "tagline": "国家级二等奖。基于STM32主控完成搬运车主控板与双层PCB Layout，集成视觉识别与电机舵机控制。",
       "role": "硬件负责人",
       "period": "2024.10 - 2025.08",
       "tags": ["国家级二等奖", "STM32", "PCB设计"],
       "cover": "projects/engineering-competition/cover.jpg",
       "images": [
-        {
-          "src": "projects/engineering-competition/01.jpg",
-          "caption": "搬运车实物与结构设计"
-        },
-        {
-          "src": "projects/engineering-competition/02.jpg",
-          "caption": "主控板与硬件调试"
-        }
+        { "src": "projects/engineering-competition/01.png", "caption": "" },
+        { "src": "projects/engineering-competition/02.png", "caption": "" }
       ],
       "summary": [
         "项目背景：参加由教育部高教司主办的 A 类赛事，智能物流搬运赛项。",
@@ -52,21 +46,20 @@
       "tagline": "省级二等奖。涵盖第20届缩微光电与第21届疯狂电路赛项，独立完成主控板设计、信号调理与高频抗干扰优化。",
       "role": "硬件负责人",
       "period": "2024.12 - 2026.07",
-      "tags": ["省级二等奖2项", "团队协作", "多层pcb"],
-      "cover": "projects/smart-car/cover.jpg",
+      "tags": ["省级二等奖2项", "嘉立创EDA", "模数混合"],
+      "cover": "projects/smart-car/01.jpg",
       "images": [
-        {
-          "src": "projects/smart-car/01.jpg",
-          "caption": "第21届疯狂电路赛项 - 车模"
-        },
-        {
-          "src": "projects/smart-car/02.jpg",
-          "caption": "第20届缩微光电赛项 - 车模"
-        },
-        {
-          "src": "projects/smart-car/03.jpg",
-          "caption": "PCB Layout与信号布线"
-        }
+        { "src": "projects/smart-car/02.jpg", "caption": "" },
+        { "src": "projects/smart-car/03.jpg", "caption": "" },
+        { "src": "projects/smart-car/04.jpg", "caption": "" },
+        { "src": "projects/smart-car/05.jpg", "caption": "" },
+        { "src": "projects/smart-car/06.png", "caption": "" },
+        { "src": "projects/smart-car/07.png", "caption": "" },
+        { "src": "projects/smart-car/08.png", "caption": "" },
+        { "src": "projects/smart-car/09.png", "caption": "" },
+        { "src": "projects/smart-car/10.png", "caption": "" },
+        { "src": "projects/smart-car/11.png", "caption": "" },
+        { "src": "projects/smart-car/12.png", "caption": "" }
       ],
       "summary": [
         "项目背景：连续参加第20届、第21届全国大学生智能汽车竞赛，均担任硬件负责人。",
@@ -84,14 +77,7 @@
       "tags": ["AI辅助开发", "移动端App", "微信小程序"],
       "cover": "projects/mobile-app-dev/cover.jpg",
       "images": [
-        {
-          "src": "projects/mobile-app-dev/01.jpg",
-          "caption": "手机 App 界面与功能展示"
-        },
-        {
-          "src": "projects/mobile-app-dev/02.jpg",
-          "caption": "微信小程序界面与功能展示"
-        }
+        { "src": "projects/mobile-app-dev/01.jpg", "caption": "" }
       ],
       "summary": [
         "项目背景：为了验证个人想法或辅助硬件项目，借助前沿 AI 工具探索移动端软件开发的完整流程。",
@@ -103,16 +89,14 @@
     {
       "id": "reuleaux-triangle",
       "title": "莱洛三角形硬件复刻项目",
-      "tagline": "经典控制算法与硬件结构的复刻实践，照抄开源方案完成电路搭建与机械结构。",
+      "tagline": "经典控制算法与硬件结构的复刻实践，参考开源方案完成电路搭建与机械结构装配。",
       "role": "硬件研发",
       "period": "2026.01 - 2026.03",
       "tags": ["硬件复刻", "机械结构", "电路调试"],
       "cover": "projects/reuleaux-triangle/cover.jpg",
       "images": [
-        {
-          "src": "projects/reuleaux-triangle/01.jpg",
-          "caption": "莱洛三角形结构实物"
-        }
+        { "src": "projects/reuleaux-triangle/01.png", "caption": "" },
+        { "src": "projects/reuleaux-triangle/02.png", "caption": "" }
       ],
       "summary": [
         "项目背景：复刻经典的莱洛三角形自平衡机构，侧重于硬件搭建与电路逻辑验证。",
@@ -123,22 +107,21 @@
     },
     {
       "id": "servo-dog",
-      "title": "多舵机小狗复刻",
-      "tagline": "四足机器狗硬件复刻项目，完成PCB 布线及整机结构装配。",
+      "title": "多自由度舵机小狗复刻",
+      "tagline": "四足机器人硬件复刻项目，完成PCB 布线及整机结构装配。",
       "role": "（复刻）硬件研发",
       "period": "2026.02 - 2026.04",
       "tags": ["180°", "舵机控制", "结构装配"],
       "cover": "projects/servo-dog/cover.jpg",
       "images": [
-        {
-          "src": "projects/servo-dog/01.jpg",
-          "caption": "舵机小狗实物图"
-        }
+        { "src": "projects/servo-dog/01.jpg", "caption": "" },
+        { "src": "projects/servo-dog/02.png", "caption": "" },
+        { "src": "projects/servo-dog/03.png", "caption": "" }
       ],
       "summary": [
         "项目背景：复刻简易四足机器狗，单纯的兴趣使然。",
         "我的工作：设计主控板的接口电路，完成双层 PCB Layout；完成全机 3D 打印结构件的装配与接线布线。",
-        "项目成果：完成整机装配与动作测试，烧录已有的固件就可以实现基础的行走与姿态控制。"
+        "项目成果：完成整机联调与动作测试，实现基础的行走与姿态控制。"
       ],
       "links": {}
     },
@@ -151,10 +134,7 @@
       "tags": ["物联网", "Web服务", "软硬件协同"],
       "cover": "projects/smart-aquarium/cover.jpg",
       "images": [
-        {
-          "src": "projects/smart-aquarium/01.jpg",
-          "caption": "主控板与整体实物"
-        }
+        { "src": "projects/smart-aquarium/01.png", "caption": "" }
       ],
       "summary": [
         "项目背景：设计并实现鱼缸自动化与本地物联网监控系统。",
@@ -172,26 +152,11 @@
       "tags": ["国家级二等奖", "国际赛二等奖", "省级奖项"],
       "cover": "projects/awards/cover.jpg",
       "images": [
-        {
-          "src": "projects/awards/01.jpg",
-          "caption": "2025中国大学生工创赛 国家级二等奖"
-        },
-        {
-          "src": "projects/awards/02.jpg",
-          "caption": "2026一带一路暨金砖国家技能大赛 国际赛二等奖"
-        },
-        {
-          "src": "projects/awards/03.jpg",
-          "caption": "第20届、21届全国大学生智能汽车竞赛 省级二等奖"
-        },
-        {
-          "src": "projects/awards/04.jpg",
-          "caption": "第十五届挑战杯河北省大学生创业计划竞赛 省级二等奖"
-        },
-        {
-          "src": "projects/awards/05.jpg",
-          "caption": "第十六届蓝桥杯 EDA设计与开发 省级三等奖"
-        }
+        { "src": "projects/awards/01.jpg", "caption": "" },
+        { "src": "projects/awards/02.jpg", "caption": "" },
+        { "src": "projects/awards/03.jpg", "caption": "" },
+        { "src": "projects/awards/04.jpg", "caption": "" },
+        { "src": "projects/awards/05.jpg", "caption": "" }
       ],
       "summary": [
         "在这里集中展示我在各类学科竞赛中获得的荣誉证书。",
@@ -201,4 +166,3 @@
       "links": {}
     }
   ]
-}
