@@ -71,25 +71,7 @@
       ],
       "links": {}
     },
-    {
-      "id": "mobile-app-dev",
-      "title": "AI辅助开发｜手机App与小程序",
-      "tagline": "借助 AI 工具快速完成从需求分析到代码生成的全流程，独立开发手机 App 及微信小程序并部署上线。",
-      "role": "独立开发",
-      "period": "2025.09 - 2026.01",
-      "tags": ["AI辅助开发", "移动端App", "微信小程序"],
-      "cover": "projects/mobile-app-dev/cover.jpg",
-      "images": [
-         { "src": "projects/mobile-app-dev/cover.jpg", "caption": "手机app" },
-        { "src": "projects/mobile-app-dev/01.jpg", "caption": "小程序" }
-      ],
-      "summary": [
-        "项目背景：为了验证个人想法或辅助硬件项目，借助前沿 AI 工具探索移动端软件开发的完整流程。",
-        "我的工作：利用 AI 编程工具辅助完成前后端逻辑设计、代码生成与调试；完成 UI 界面布局、功能逻辑串联，以及手机端与微信小程序的适配发布。",
-        "项目成果：成功落地并上线了 1 款手机 App （仅apk包版本）和 1 款微信小程序，验证了自身快速学习新技术并实现产品落地的能力。"
-      ],
-      "links": {}
-    },
+   
     {
       "id": "reuleaux-triangle",
       "title": "莱洛三角形硬件复刻项目",
@@ -147,6 +129,25 @@
         "项目背景：设计并实现鱼缸自动化与本地物联网监控系统。",
         "我的工作：完成 STM32F103C8T6 主控板原理图设计与 PCB 绘制；基于 Trae 开发固件；配置 ESP-12F 模块与内置 Web 服务器。",
         "项目成果：实现水温水质采集与增氧喂食控制，将状态实时呈现在浏览器，支持局域网内远程控制，形成完整功能闭环。"
+      ],
+      "links": {}
+    },
+    {
+      "id": "mobile-app-dev",
+      "title": "AI辅助开发｜手机App与小程序",
+      "tagline": "借助 AI 工具快速完成从需求分析到代码生成的全流程，独立开发手机 App 及微信小程序并部署上线。",
+      "role": "独立开发",
+      "period": "2025.09 - 2026.01",
+      "tags": ["AI辅助开发", "移动端App", "微信小程序"],
+      "cover": "projects/mobile-app-dev/cover.jpg",
+      "images": [
+         { "src": "projects/mobile-app-dev/cover.jpg", "caption": "手机app" },
+        { "src": "projects/mobile-app-dev/01.jpg", "caption": "小程序" }
+      ],
+      "summary": [
+        "项目背景：为了验证个人想法或辅助硬件项目，借助前沿 AI 工具探索移动端软件开发的完整流程。",
+        "我的工作：利用 AI 编程工具辅助完成前后端逻辑设计、代码生成与调试；完成 UI 界面布局、功能逻辑串联，以及手机端与微信小程序的适配发布。",
+        "项目成果：成功落地并上线了 1 款手机 App （仅apk包版本）和 1 款微信小程序，验证了自身快速学习新技术并实现产品落地的能力。"
       ],
       "links": {}
     },
